@@ -9,7 +9,7 @@
     <property name="project.target" location="target"/>
     <property name="project.classes" location="${project.target}/classes"/>
     <path id="compile.cp">
-      <fileset dir="${project.lib}">
+      <fileset dir="${project.lib}" erroronmissingdir="false">
 	<include name="*.jar"/>
       </fileset>
     </path>
