@@ -27,6 +27,7 @@
 	   destdir="${project.classes}"
 	   debug="on"
 	   includeantruntime="no">
+      <classpath refid="compile.cp"/>
       <compilerarg value="-Xlint"/>
     </javac>
   </target>
